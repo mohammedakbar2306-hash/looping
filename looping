@@ -1,0 +1,197 @@
+/*#include<iostream>
+using namespace std;
+int main()
+{for(int i=1;i<=50;i++)
+{
+    cout<<i<<endl;
+}
+    return 0;
+}
+
+
+
+#include<iostream>
+using namespace std;
+int main()
+{for(int i=1;i<=20;i++)
+{
+    cout<<i<<"x"<<i<<"="<<i*i<<endl;
+}
+    return 0;
+}
+
+
+
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a;
+    cout<<"enter a number : "<<endl;
+    cin>>a;
+    for(int i=1;i<=10;i++)
+{
+    cout<<a<<"x"<<i<<"="<<a*i<<endl;
+}
+    return 0;
+}
+
+
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int c=0;
+    for(int i=1;i<=100;i++)
+{
+    if(i%2==0)
+    {
+        c+=i;
+    }
+}
+ cout<<c<<endl;
+    return 0;
+}
+
+
+
+
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int c=0;
+    for(int i=1;i<=100;i++)
+{
+    if(i%3==0)
+    {
+        c+=1;
+    }
+}
+ cout<<c<<endl;
+    return 0;
+}
+
+
+
+#include<iostream>
+using namespace std;
+int main()
+{
+   for(char i='A';i<='Z';i++)
+   {
+
+       cout<<int(i)<<endl;
+   }
+    return 0;
+}*/
+#include<iostream>
+using namespace std;
+int main()
+{
+
+
+    /*for(char i='A'; i<='Z';i++)
+    {
+        cout<<int(i)<<endl;
+    }
+
+    int m,f=1;
+    cout<<"Enter the number to find factorial: "<<endl;
+    cin>>m;
+    for(int i=1;i<=m;i++)
+    {
+        f=f*i;
+    }
+    cout<<"The factorial is "<<f<<endl;
+    string s;
+    cout<<"Enter a string: "<<endl;
+    cin>>s;
+    cout<<"the reversed string"<<endl;
+    for(int i= s.length() - 1;i>=0;i--)
+    {
+        cout<<s[i]<<;
+    }
+    int n,i;
+    cout<<"Enter the array size: "<<endl;
+    cin>>n;
+    cout<<"Enter the elements........."<<endl;
+    int arr[n];
+    for(i=0;i<n;i++)
+    {
+        cin>>arr[i];
+    }
+    cout<<"the array elements are................"<<endl;
+    for(i=0;i<n;i++)
+    {
+        cout<<arr[i]<<"\n";
+    }
+    int n,i;
+    cout<<"Enter the size of the array: "<<endl;
+    cin>>n;
+    int arr[n];
+    cout<<"Enter the array elements..............."<<endl;
+    for(i=0;i<n;i++)
+    {
+        cin>>arr[i];
+    }
+    cout<<"The index values of given array is............."<<endl;
+    for(i=0;i<n;i++)
+    {
+        cout<<i<<"\t"<<endl;
+    }
+    cout<<"The array elements are...................."<<endl;
+    for(i=0;i<n;i++)
+    {
+        cout<<arr[i]<<"\t";
+    }
+   int i,j;
+
+    for(i=0;i<5;i++)
+    {
+        for(j=0;j<=i;j++)
+        {
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+    int i,j;
+
+    for(i=1;i<=5;i++)//1
+    {
+        for(j=1;j<=i;j++)
+        {
+            cout<<j;//1
+        }
+        cout<<endl;
+    }
+    int a,c=0;
+    cout<<"Enter the number to sum up the givin digis"<<endl;
+    cin>>a;
+    while(a>0)
+    {
+        int d=a%10;
+        c+=d;
+        a/=10;
+    }
+    cout<<"The sum of the digits are..............."<<c<<endl;*/
+    for (int i = 2; i <= 200; i++)
+    {
+        int count = 0;
+
+        for (int j = 1; j <= i; j++)
+        {
+            if (i % j == 0)
+            {
+                count++;
+            }
+        }
+
+        if (count == 2)
+        {
+            cout << i << " ";
+        }
+    }
