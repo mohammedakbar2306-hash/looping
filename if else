@@ -1,0 +1,168 @@
+/*#include <iostream>
+using namespace std;
+int main()
+{int a;
+cout<<"enter a number: "<<endl;
+cin>>a;
+if(a>10 && a<50)
+{
+    cout<<"the given number lies between 10 and 50"<<endl;
+}
+else
+{
+    cout<<"it does not lie btw 10 and 50"<<endl;
+}
+    return 0;
+}
+#include <iostream>
+using namespace std;
+int main()
+{int a;
+cout<<"enter a year : "<<endl;
+cin>>a;
+if(a%4==0 && a/100!=0)
+{
+    cout<<"given year is an leap year"<<endl;
+}
+else
+{
+    cout<<"given year is not an leap year"<<endl;
+}
+    return 0;
+}
+
+
+
+#include <iostream>
+using namespace std;
+int main()
+{int a;
+cout<<"enter a number : "<<endl;
+cin>>a;
+if(a%3==0 && a%5==0)
+{
+    cout<<"given number is divisible by both 3 and 5"<<endl;
+}
+else
+{
+    cout<<"given number is not divisible by both 3 and 5"<<endl;
+}
+    return 0;
+}
+
+
+
+#include <iostream>
+using namespace std;
+int main()
+{int a;
+cout<<"enter a number : "<<endl;
+cin>>a;
+if(a>0)
+{
+    cout<<"given number is positive"<<endl;
+}
+else if(a<0)
+{
+    cout<<"given number is negative"*/
+#include <iostream>
+using namespace std;
+int main()
+{
+    /*int a;
+    cout<<"Enter your mark"<<endl;
+    cin>>a;
+    if(a>90)
+    {
+        cout<<"A grade"<<endl;
+    }
+    else if(a>=80 && a<=90)
+    {
+        cout<<"B grade"<<endl;
+    }
+    else if(a>=70 && a<80)
+    {
+        cout<<"C grade"<<endl;
+    }
+    else if(a>=60 && a<70)
+    {
+        cout<<"D grade"<<endl;
+    }
+    else if(a<60)
+    {
+        cout<<"Fail"<<endl;
+    }
+    else
+    {
+        cout<<"Enter a valid mark"<<endl;
+    }
+    int c,a,b;
+    cout<<"Enter two numbers"<<endl;
+    cin>>a>>b;
+    cout<<"Enter your choice: "<<"\n1)+\n"<<"2)-\n"<<"3)*\n"<<"4)/\n";
+    cin>>c;
+    cout<<"==============================================================="<<endl;
+    if(c==1)
+    {
+        cout<<a+b<<endl;
+    }
+    else if(c==2)
+    {
+        cout<<a-b<<endl;
+    }
+    else if(c==3)
+    {
+        cout<<a*b<<endl;
+    }
+   else if(c==4)
+    {
+        cout<<a/b<<endl;
+    }
+    else
+    {
+        cout<<"invalid choice"<<endl;
+
+    }
+
+    int s;
+    cout<<"Enter the unit"<<endl;
+    cin>>s;
+    if(s<=200)
+    {
+        cout<<"below 200 units the current bill is free";
+    }
+    else if(s>200 && s<=300)
+    {
+        cout<<"your bill is 1,800"<<endl;
+    }
+    else if(s>300 && s<=400)
+    {
+        cout<<"your bill is 3,200"<<endl;
+    }
+    else if(s>400 && s<=500)
+    {
+        cout<<"your bill is 5,200"<<endl;
+    }
+    else
+    {
+        cout<<"enter valid unit"<<endl;
+    }
+    int m;
+    cout<<"Enter the month number to find the number of days"<<endl;
+    cin>>m;
+    if(m==4 || m==6 || m==9 || m==11)
+    {
+        cout<<"this month has 30 days"<<endl;
+    }
+    else if(m==2)
+    {
+        cout<<"this month has 28 days and it has 29 days in leap year"<<endl;
+    }
+    else if(m==1 || m==3 || m==5 || m==7 || m==8 || m== 10 || m==12)
+    {
+        cout<<"This month has 31 days"<<endl;
+    }
+    else
+    {
+        cout<<"Enter the valid month number"<<endl;
+    }*/
