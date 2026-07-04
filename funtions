@@ -1,0 +1,216 @@
+#include <iostream>
+using namespace std;
+//int main() {
+    /*void fun()
+{
+    cout<<"Hello world"<<endl;
+}
+int main() {
+    fun();
+    return 0;
+}
+void add(int a,int b)
+{
+    cout<<a+b;
+}
+int main()
+{
+    int a,b;
+    cout<<"Enter the two numbers: "<<endl;
+    cin>>a>>b;
+    add(a,b);
+}
+void sub(int a,int b)
+{
+    cout<<a-b;
+}
+int main()
+{
+    int a,b;
+    cout<<"Enter the two numbers to subtract: "<<endl;
+    cin>>a>>b;
+    sub(a,b);
+}
+void square(int a)
+{
+    cout<<"The square is "<<a*a<<endl;
+}
+int main()
+{
+    int a;
+    cout<<"Enter the number to square: "<<endl;
+    cin>>a;
+    square(a);
+}
+    return 0;
+}
+void cube(int a)
+{
+   cout<<a*a*a<<endl;
+    
+}
+int main()
+{
+    int a;
+    cout<<"Enter the number to cube: "<<endl;
+    cin>>a;
+    cube(a);
+}*/
+void odd_even(int a)
+{
+    if(a%2==0)
+    {
+        cout<<"Even";
+    }
+    else
+    {
+        cout<<"odd";
+    }
+}
+int main()
+{
+    int a;
+    cout<<"Enter a number: "<<endl;
+    cin>>a;
+    odd_even(a);
+void maximum(int a, int b)
+{
+    if(a>b)
+    {
+        cout<<a<<" is the greatest"<<endl;
+    }
+    else{
+        cout<<b<<" is the greates"<<endl;
+    }
+}
+int main()
+{
+    int a,b;
+    cout<<"Enter two numbers to compare which is greatest: "<<endl;
+    cin>>a>>b;
+    maximum(a,b);
+}
+void swap(int a,int b)
+{
+    int c=0;
+    c=a;
+    a=b;
+    b=c;
+    cout<<"========The numbers after swapped=========="<<endl;
+    cout<<a<<endl<<b<<endl;
+}
+int main()
+{
+    int a,b;
+    cout<<"Enter two numbers to swap: "<<endl;
+    cin>>a>>b;
+    swap(a,b);
+}
+void rectangle(int w,int l)
+{
+    cout<<"Area of the rectangle is"<<endl;
+    cout<<w*l;
+}
+int main()
+{
+    int w,l;
+    cout<<"Enter the width and length: "<<endl;
+    cin>>w>>l;
+    rectangle(w,l);
+}
+void circle(int c)
+{
+    cout<<"The circumference of the circle"<<endl;
+    cout<<c<<endl;
+}
+int main()
+{
+    int r,c;
+    cout<<"Enter the radius: "<<endl;
+    cin>>r;
+    c=2*3.14*r;
+    circle(c);
+    
+}
+void prime(int p)
+{
+    int c;
+    for(int i=1;i<=p;i++)
+    {
+        if(p%i==0)
+        {
+            c+=1;
+        }
+    }
+    if(c==2)
+    {
+        cout<<"The given number is Prime number"<<endl;
+    }
+    else{
+        cout<<"The given number is not a prime number"<<endl;
+    }
+}
+int main()
+{
+    int p;
+cout<<"Enter a number to check wheather it is prime number or not"<<endl;
+cin>>p;
+prime(p);
+
+}
+#include <iostream>
+using namespace std;
+void palindrome(int s)
+{
+    int temp=0,c=0,r;
+    temp =s;
+    while(s>0)
+    {
+       r=s%10;
+       c=(c*10)+r;
+       s/=10;
+    }
+    if(temp==c)
+    {
+        cout<<"The number is palindrome"<<endl;
+    }
+    else
+    {
+        cout<<"The number is not a palindrome"<<endl;
+    }
+}
+int main()
+{
+    int s;
+    cout<<"Enter a number to check it is a palindrome or not: " <<endl;
+    cin>>s;
+    palindrome(s);
+}
+void count(int a)
+{
+    int c=0;
+    while(a>0)
+    {
+        a/=10;
+        c+=1;
+    }
+    cout<<"The count is "<<c;
+}
+int main()
+{
+    int a;
+    cout<<"Enter the number to count number of digits"<<endl;
+    cin>>a;
+    count(a);
+}
+
+
+
+
+
+
+
+
+
+
+
