@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() {
+int t=0;
+int a=23;
+int m=8;
+int* k=&m;
+int* p=&a;
+// cout<<p<endl;
+// cout<<*p<<endl;
+// int** s=&p;
+// cout<<**s+*k<<endl;
+t=*p;
+*p=*k;
+*p=t;
+cout<<*p<<endl;
+cout<<*k<<endl;
