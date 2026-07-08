@@ -1,0 +1,68 @@
+[10:49 pm, 7/7/2026] MD: #include <iostream>
+using namespace std;
+	struct student 
+	{
+		int rollno;
+		string name;
+		float avg;
+	};
+int main()
+{
+	struct student e1={21,"akbar",70.33	};
+	cout<<e1.rollno<<" "<<e1.name<<" "<<e1.avg<<endl;
+
+}
+#include<iostream>
+using namespace std;
+struct employee
+{
+    int id;
+    string name;
+    float salary;
+};
+int main()
+{
+    struct employee e1={21,"akbar",100000.1};
+    cout<<"==========The employee info are mentioned below============"<<endl;
+    cout<<"id: "<<e1.id<<endl;
+    cout<<"name: "<<e1.name<<endl;
+    cout<<"salary: "<<e1.salary<<endl;
+}
+[10:49 pm, 7/7/2026] MD: #include<iostream>
+using namespace std;
+struct library
+{
+    string bookname;
+    int price;
+    string authorname;
+};
+int main()
+{
+    struct library e1={"HearttheLover",387,"LilyKing"}
+    cout<<"==========The book info are mentioned below============"<<endl;
+    cout<<"book name: "<<e1.bookname<<endl;
+    cout<<"price: "<<e1.price<<endl;
+    cout<<"author name: "<<e1.authorname;
+    #include <iostream>
+using namespace std;
+struct students
+{
+    int rollno;
+    string name;
+    float avg;
+};
+int main() {
+    struct students s1={12,"akbar",73};  
+    struct students s2={13,"mugundhan",65};
+    cout<<"=========== the two students mark are mentioned below============"<<endl;
+    cout<<"rollno of student 1: "<<s1.rollno<<endl;
+    cout<<"name of the student 1: "<<s1.name<<endl;
+    cout<<"avg of the student 1: "<<s1.avg<<endl;
+    cout<<"rollno of student 2: "<<s2.rollno<<endl;
+    cout<<"name of the student 2: "<<s2.name<<endl;
+    cout<<"avg of the student 2: "<<s2.avg<<endl;
+    cout<<"===========program ended==============="<<endl;
+    
+   
+    return 0;
+}
